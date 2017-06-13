@@ -1,4 +1,9 @@
-// require("./style.css");
-require("./stuff.js")
-document.write(require("./content.js"))
-console.log("I did it!")
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import Hello from './hello'
+
+ReactDOM.render(
+  <Hello name="cool stuff" />,
+  document.body
+)
