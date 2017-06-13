@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hello = ({ name }) => {
   return (
-    <div>
+    <h1>
       Hello, {name}!
-    </div>
+    </h1>
   )
 }
 
